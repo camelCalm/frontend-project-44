@@ -21,5 +21,10 @@
   "homepage": "https://github.com/camelCalm/frontend-project-44#readme",
   "dependencies": {
     "readline-sync": "github:anseki/readline-sync"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.20.0",
+    "eslint": "^9.20.1",
+    "globals": "^15.15.0"
   }
 }
