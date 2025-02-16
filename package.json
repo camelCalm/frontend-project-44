@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/camelCalm/frontend-project-44/issues"
   },
-  "homepage": "https://github.com/camelCalm/frontend-project-44#readme"
+  "homepage": "https://github.com/camelCalm/frontend-project-44#readme",
+  "dependencies": {
+    "readline-sync": "github:anseki/readline-sync"
+  }
 }
