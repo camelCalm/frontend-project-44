@@ -2,11 +2,13 @@
 
 How install and use:
 
-```git clone https://github.com/camelCalm/frontend-project-44.git```
+```
+git clone https://github.com/camelCalm/frontend-project-44.git
+```
 
-```npm link```
-ls
-
+```
+npm link
+```
 
 ### Hexlet tests and linter status:
 [![Actions Status](https://github.com/camelCalm/frontend-project-44/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/camelCalm/frontend-project-44/actions)
