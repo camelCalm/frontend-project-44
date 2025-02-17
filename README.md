@@ -7,7 +7,7 @@ git clone https://github.com/camelCalm/frontend-project-44.git
 ```
 
 ```
-npm link
+npm install
 ```
 
 ### Hexlet tests and linter status:
