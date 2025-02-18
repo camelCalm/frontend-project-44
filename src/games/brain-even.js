@@ -1,5 +1,5 @@
 import { question } from 'readline-sync';
-import randomNum from '../random.js'
+import randomNum from '../randomNumber.js'
 import isEven from '../even.js';
 
 const state = {

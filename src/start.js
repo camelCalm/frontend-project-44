@@ -1,5 +1,6 @@
 import { question } from 'readline-sync';
 import even from './games/brain-even.js'
+import calc from './games/brain-calc.js';
 import cli from './cli.js';
 
 export default () => {
@@ -11,7 +12,9 @@ export default () => {
     switch (game) {
         case 'even':
             return even(name);
+        case 'calc':
+            return calc(name);
         default:
-            console.log('Not coorect answer');
+            console.log('Missing from the list');
     }
 };

@@ -1,0 +1,1 @@
+export default (f = 25) => Math.round(Math.random() * f);
