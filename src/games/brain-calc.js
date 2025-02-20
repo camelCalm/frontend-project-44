@@ -1,6 +1,6 @@
 import randomNum from "../randomNumber.js";
-import index from '../index.js';
 import randomSign from "../randomSign.js";
+import index from '../index.js';
 
 let getCorrectAnswer = {
     '-': (a, b) => a - b,
