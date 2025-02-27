@@ -38,7 +38,7 @@ export default (name) => {
             i += 1;
             return iter();
         } else {
-            console.log(`'${answerOfIndex.answer}' is wrong answer ;(. Correct answer was '${answer}'.`);
+            console.log(`'${answerOfIndex.notCorrectAnswer}' is wrong answer ;(. Correct answer was '${answer}'.\nLet's try again, ${name}!`);
             return;
         }
     };

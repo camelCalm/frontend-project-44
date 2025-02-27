@@ -9,6 +9,6 @@ export default (quest, correctAnswer) => {
     if (correctAnswer === answer) {
         return { result: true };
     } else {
-        return { result: false, answer: answer };
+        return { result: false, notCorrectAnswer: answer };
     }
 };

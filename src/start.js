@@ -3,6 +3,7 @@ import even from './games/brain-even.js'
 import calc from './games/brain-calc.js';
 import gcd from './games/brain-gcd.js';
 import progression from './games/brain-progression.js'
+import prime from './games/brain-prime.js';
 import cli from './cli.js';
 
 export default () => {
@@ -20,6 +21,8 @@ export default () => {
             return gcd(name);
         case 'prg':
             return progression(name);
+        case 'prime':
+            return prime(name);
         default:
             console.log('Missing from the list');
     }

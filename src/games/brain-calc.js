@@ -31,7 +31,7 @@ export default (name) => {
             iter();
         } else if (resultOfIndex.result === false) {
             console.log(
-                `'${resultOfIndex.answer}' is wrong answer ;(. Correct answer was '${correctAnswer}'.\nLet's try again, ${name}!`
+                `'${resultOfIndex.notCorrectAnswer}' is wrong answer ;(. Correct answer was '${correctAnswer}'.\nLet's try again, ${name}!`
             )
             return;
         }
